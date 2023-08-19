@@ -1,0 +1,139 @@
+.topbar{
+    display: flex;
+    padding-top: 10px;
+}
+.topbarIcon{
+    border-radius: 50%;
+
+}
+.topbarButton{
+    border-color: #C2D245 !important;
+    color: #C2D245 !important;
+}
+.topbarButImg{
+    padding-right: 10px;
+}
+.topbar p , label{
+    margin-top: 10px;
+}
+.main{
+    background-color: #171825;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.chatBox{
+    background-size: 611px 435px;
+}
+.chat1{
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    float: right;
+    background-color: #171825;
+    border-radius: 5px;
+}
+.chat1img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+.chat1para{
+    margin: 3px;
+    color: white;
+    font-family: 'inter';
+    padding-left: 5px;
+    font-size: 13px;
+}
+.chat2{
+    display: flex;
+    float: left;
+    border-radius: 5px;
+    margin: 20px;
+}
+.chat2inner{
+    background-color: #2E2F45;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+}
+.chat2img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+.chat2para{
+    margin: 3px;
+    color: white;
+    font-family: 'inter';
+    padding-left: 5px;
+    font-size: 13px;
+}
+.threeicon{
+    width: 15px;
+    height: 15px;
+}
+.emoji{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 50px;
+    left: 15px;
+}
+.lowerSection{
+    display: flex;
+    height: 40px;
+    width: 100%;
+}
+.inputfield{
+    margin-left: 20px;
+}
+.inputfield input{
+    padding-left: 15px;
+}
+.lowerIcons{
+    padding-top: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+.input-container {
+    background-color: #2E2F45;
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 80%;
+    align-items: center;
+  }
+  
+  .custom-input {
+    background-color: #2E2F45;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+  }
+  .custom-input::placeholder{
+    color: #ffffff;
+    font-family: 'inter';
+  }
+  .send-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .send-button img {
+    width: 20px;
+    height: 20px;
+    color: white;
+  }
+ 
