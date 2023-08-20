@@ -138,7 +138,7 @@ function App() {
               <img className='threeicon' src={like} alt='like icon' />
               <img className='threeicon' src={dislike} alt='dislike icon' />
             </div>
-            <div className='chat1' style={{marginTop: isSwitchOn == true ? "40%" : 0,
+            <div className='chat1' style={{marginTop: isSwitchOn == true ? "40.30%" : 0,
             background: isSwitchOn ? 'linear-gradient(transparent 50%, #171825 50%)' : '#171825',
           }}>
               <img className='chat1img' src={userIcon} alt='user icon' style={{ opacity: isSwitchOn ? 0.5 : 1 }} />
@@ -163,10 +163,10 @@ function App() {
               <img src={send} alt="Send" />
             </button>
           </div>
-            <img className='lowerIcons' src={sound} alt='sound icon' />
-            <img className='lowerIcons' src={mic} alt='mic icon' />
-            <img className='lowerIcons' src={load} alt='load icon' />
-            <img className='lowerIcons' src={copy} alt='copy icon' />
+            <img className='lowerIcons' src={sound} alt='sound icon'/>
+            <img className='lowerIcons' src={mic} alt='mic icon'/>
+            <img className='lowerIcons' src={load} alt='load icon'/>
+            <img className='lowerIcons' src={copy} alt='copy icon'/>
           </div>
           </div>
           
