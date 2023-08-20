@@ -163,10 +163,10 @@ function App() {
               <img src={send} alt="Send" />
             </button>
           </div>
-            <img className='lowerIcons' src={sound} alt='sound icon'/>
-            <img className='lowerIcons' src={mic} alt='mic icon'/>
-            <img className='lowerIcons' src={load} alt='load icon'/>
-            <img className='lowerIcons' src={copy} alt='copy icon'/>
+            <img className='lowerIcons' src={sound} alt='sound icon' />
+            <img className='lowerIcons' src={mic} alt='mic icon' />
+            <img className='lowerIcons' src={load} alt='load icon' />
+            <img className='lowerIcons' src={copy} alt='copy icon' />
           </div>
           </div>
           
