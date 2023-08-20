@@ -17,7 +17,7 @@ import mic from './assets/icons/icons/ic_mic@2x.png'
 import load from './assets/icons/icons/ic_reload.png'
 import copy from './assets/icons/icons/ic_copy.png'
 import { InputAdornment, Input, IconButton } from '@mui/material';
-import inter from '@fontsource/inter'
+import '@fontsource/inter'
 import './App.css'
 
 function App() {
