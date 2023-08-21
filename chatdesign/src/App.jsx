@@ -122,11 +122,11 @@ function App() {
         position: "relative",
         borderRadius: 5,
         overflow: "auto" }}>
-            <div className='chat1' style={{marginTop:'19%', display: isSwitchOn == true ? "none" : "flex"}}>
+            <div className='chat1' style={{marginTop:'19%', opacity: isSwitchOn == true ? 0 : 1}}>
               <img className='chat1img' src={userIcon} alt='user icon' />
               <p className='chat1para'>Who are some of your favorite directors to work with?</p>
             </div>
-            <div className='chat2' style={{display: isSwitchOn == true ? "none" : "flex"}}>
+            <div className='chat2' style={{opacity: isSwitchOn == true ? 0 : 1}}>
               <div className='chat2inner'>
                 <img className='chat2img' src={srkchat} alt='srk icon' />
                 <p className='chat2para'>I share a very special bond with Karan. We have worked together in several blockbusters like
@@ -138,7 +138,7 @@ function App() {
               <img className='threeicon' src={like} alt='like icon' />
               <img className='threeicon' src={dislike} alt='dislike icon' />
             </div>
-            <div className='chat1' style={{marginTop: isSwitchOn == true ? "40.30%" : 0,
+            <div className='chat1' style={{
             background: isSwitchOn ? 'linear-gradient(transparent 50%, #171825 50%)' : '#171825',
           }}>
               <img className='chat1img' src={userIcon} alt='user icon' style={{ opacity: isSwitchOn ? 0.5 : 1 }} />
